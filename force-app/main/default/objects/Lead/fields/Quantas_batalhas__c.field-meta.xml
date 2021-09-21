@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantas_batalhas__c</fullName>
+    <description>Informar quantas batalhas os possíveis heróis já enfrentaram.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Preencha o número de batalhas que já enfrentou.</inlineHelpText>
+    <label>Quantas batalhas</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

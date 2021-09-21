@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExigeNumeroDebatalhas</fullName>
+    <active>true</active>
+    <description>Exige números de batalhas quando ele batalhou.</description>
+    <errorConditionFormula>ISPICKVAL( jaEsteveEmBatalha__c , &quot;Sim&quot;)&amp;&amp;   ISBLANK(Quantas_batalhas__c )</errorConditionFormula>
+    <errorDisplayField>Quantas_batalhas__c</errorDisplayField>
+    <errorMessage>Por favor preencher o quantidade de batalhas.</errorMessage>
+</ValidationRule>

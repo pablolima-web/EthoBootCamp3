@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planeta__c</fullName>
+    <description>Planeta de origem do candidato.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Este campo deve ser preenchido sempre quando a opção &quot;É terráqueo&quot; estiver desmarcada. Caso contrário não é obrigatório.</inlineHelpText>
+    <label>Planeta</label>
+    <length>60</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -29,8 +29,7 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>*</members>
-        <members>Contato</members>
+        <members>Contact</members>
         <members>Lead</members>
         <name>CustomObject</name>
     </types>

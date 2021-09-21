@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NomeGuerra__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Nome  do herói ou nome do vilão.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Nome  do herói ou nome do vilão.</inlineHelpText>
+    <label>Nome de Guerra</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
