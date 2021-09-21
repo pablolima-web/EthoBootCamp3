@@ -1,0 +1,20 @@
+<apex:page showHeader="false">
+    
+    <apex:includeLightning />
+
+    <div id="lightning" />
+
+    <script>
+        $Lightning.use("c:FormularioHeroisAPP", function() {
+          $Lightning.createComponent("c:FormularioHeroisCMP",
+              "",
+              "lightning",
+              function(cmp) {
+                console.log("Componente carregado");
+                // do some stuff
+              }
+          );
+        });
+    </script>
+    
+</apex:page>

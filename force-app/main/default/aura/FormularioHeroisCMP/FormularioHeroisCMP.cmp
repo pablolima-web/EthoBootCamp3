@@ -1,0 +1,17 @@
+<aura:component >
+	 
+    <aura:attribute name="fields" type="String[]" default="['Name','NomeGuerra__c', 'Planeta__c']" />
+    
+    <lightning:card variant="Narrow" title="Formulario Herois Marvel " iconName="standard:account" footer="Marvel">
+        <aura:set attribute="actions">
+            <lightning:buttonIcon iconName="utility:down" variant="border-filled" alternativeText="Show More"/>
+        </aura:set>
+        <p class="slds-p-horizontal_small">
+            
+            <lightning:recordForm
+                    objectApiName="Contact"
+                    fields="{!v.fields}"
+                    onsuccess="{!c.handleSuccess}" />
+        </p>
+    </lightning:card>
+</aura:component>

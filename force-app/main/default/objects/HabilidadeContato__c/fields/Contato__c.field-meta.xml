@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contato__c</fullName>
+    <description>Campo de relacionamento entre Habilidade e Contato.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Campo de relacionamento entre Habilidade e Contato.</inlineHelpText>
+    <label>Contato</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Habilidades do Contato</relationshipLabel>
+    <relationshipName>Habilidades_do_Contato</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

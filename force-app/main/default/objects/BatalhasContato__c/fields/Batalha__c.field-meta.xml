@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batalha__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Campo de relacionamento entre Batalha do Contato e Batalha</inlineHelpText>
+    <label>Batalha</label>
+    <referenceTo>Batalha__c</referenceTo>
+    <relationshipLabel>Batalhas do Contato</relationshipLabel>
+    <relationshipName>Batalha</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

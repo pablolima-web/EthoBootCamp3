@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Habilidade__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Campo de relacionamento entra Habilidade de Contato com Habilidade.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Campo de relacionamento entra Habilidade de Contato com Habilidade.</inlineHelpText>
+    <label>Habilidade</label>
+    <referenceTo>Habilidade__c</referenceTo>
+    <relationshipLabel>Habilidades do Contato</relationshipLabel>
+    <relationshipName>HabilidadesContato</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DataInicio__c</fullName>
+    <defaultValue>Today()</defaultValue>
+    <description>Data de início da Batalha.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Data de início da Batalha.</inlineHelpText>
+    <label>Data de Início</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

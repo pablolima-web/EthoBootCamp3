@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NaoPermitiEditarLevel</fullName>
+    <active>true</active>
+    <description>Não permite editar Level no status iniciais, antes de &quot;Em Treinamento&quot;</description>
+    <errorConditionFormula>AND(  
+     OR(ISCHANGED( Level_Habilidade__c ),
+         AND( ISNEW(),NOT  ISNULL( Level_Habilidade__c )
+            )
+   ), 
+     NOT ISPICKVAL( Contato__r.Status_Candidato__c , &apos;Em Treinamento&apos;),
+     NOT ISPICKVAL( Contato__r.Status_Candidato__c , &apos;Reprovado no Treinamento&apos;),
+     NOT ISPICKVAL( Contato__r.Status_Candidato__c , &apos;Aprovado no Treinamento&apos;),
+     NOT ISPICKVAL( Contato__r.Status_Candidato__c , &apos;Aprovado direto&apos;))</errorConditionFormula>
+    <errorDisplayField>Level_Habilidade__c</errorDisplayField>
+    <errorMessage>Para preencher ou alterar o Level do Contato, o Status Candidato precisar estar no nível &quot;Em Treinamento&quot; ou superior.</errorMessage>
+</ValidationRule>
